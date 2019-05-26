@@ -6,7 +6,7 @@
 ■プロジェクトの開発環境  
 ・Pythonは3.7.3を採用する。下記リンクからインストールすること。  
 https://www.python.org/downloads  
-・IDEは任意。特別な理由がなければEclipseで。  
+・IDEは任意。特別な理由がなければEclipseで。Eclipseの場合はPyDevがおススメ。  
   
 ■プロジェクトのルール  
 作業時に引用した、あるいは非常に参考となったサイトがある場合、URLをWikiに記載すること。  
