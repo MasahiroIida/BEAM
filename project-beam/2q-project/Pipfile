@@ -14,4 +14,5 @@ keras = "*"
 python_version = "3.6"
 
 [scripts]
-sample = "python ./src/sample/sample.py"
+sample = 'python ./src/sample/sample.py'
+demo = 'python ./src/sample/demo.py'
