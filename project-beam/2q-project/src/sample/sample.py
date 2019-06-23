@@ -5,5 +5,4 @@ Created on 2019/05/27
 '''
 
 if __name__ == '__main__':
-    print ('Hello World.')
-    
+    print('Hello World.')

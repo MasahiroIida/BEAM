@@ -12,3 +12,6 @@ keras = "*"
 
 [requires]
 python_version = "3.6"
+
+[scripts]
+sample = "python ./src/sample/sample.py"
