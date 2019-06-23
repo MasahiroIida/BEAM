@@ -35,7 +35,7 @@ https://qiita.com/y-tsutsu/items/54c10e0b2c6b565c887a
 - Keras  
 ディープラーニング用ライブラリ  
 - Tensorflow  
-  よく分からけどKeras動かすのに必要
+  よく分からないけどKeras動かすのに必要
   
   
 ## ■その他
