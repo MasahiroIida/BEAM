@@ -12,7 +12,8 @@ BEAMプロジェクト：機械学習による画像認識の開発を行うプ�
 https://www.python.org/downloads  
   
 - パッケージ管理はpipenvを採用する。  
-pythonインストール後、コマンドプロンプトでプロジェクト直下にて「pipenv install」を実行する。  
+pythonインストール後、コマンドプロンプトで「pip install pipenv」でpipenvをインストールする。  
+インストール後、プロジェクト直下にて「pipenv install」を実行する。  
 これで必要なライブラリ群がインストールされる。  
   
 - IDEはEclipse+PyDev。Eclipseのバージョンは任意。下記サイトを参考にすること  
