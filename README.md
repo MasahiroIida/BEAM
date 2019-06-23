@@ -22,6 +22,7 @@ https://qiita.com/takeyamajp/items/03cb19ee24a0ec580d64
 ## ■プロジェクトのルール  
 作業時に引用した、あるいは非常に参考となったサイトがある場合、URLをWikiに記載すること。  
   
+- ライブラリのインストールは「pipenv install XXX」で  
 pipenvでライブラリ管理を行うため。ライブラリをインストールする際はプロジェクト直下で「pipenv install XXX」にてインストールを行うこと。  
 pipenvについては下記参照  
 https://qiita.com/y-tsutsu/items/54c10e0b2c6b565c887a  
