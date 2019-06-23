@@ -27,5 +27,16 @@ pipenvについては下記参照
 https://qiita.com/y-tsutsu/items/54c10e0b2c6b565c887a  
   
   
+## ■使用ライブラリ(随時更新)  
+- pipenv  
+ライブラリ管理。node.jsでいうとこのnpmみたいなもの。  
+- Pillow  
+画像の操作。  
+- Keras  
+ディープラーニング用ライブラリ  
+- Tensorflow  
+  よく分からけどKeras動かすのに必要
+  
+  
 ## ■その他
 前提となる事項、ルールがある場合はREADMEに記載すること。
