@@ -53,7 +53,11 @@ https://qiita.com/y-tsutsu/items/54c10e0b2c6b565c887a
 - Keras  
 ディープラーニング用ライブラリ  
 - Tensorflow  
-  よく分からないけどKeras動かすのに必要
+  よく分からないけどKeras動かすのに必要  
+- scikit-learn  
+  コメントは後で書く  
+- matplotlib  
+  コメントは後で書く  
   
   
 ## ■その他
