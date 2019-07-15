@@ -1,7 +1,7 @@
 from keras.utils import np_utils
 from keras.models import Sequential
 from keras.layers.convolutional import MaxPooling2D
-from keras.layers import Activation, Conv2D, Flatten, Dense,Dropout
+from keras.layers import Activation, Conv2D, Flatten, Dense, Dropout
 from sklearn.model_selection import train_test_split
 from PIL import Image
 import numpy as np
@@ -12,7 +12,7 @@ import os
 # ファイル読込
 folder = os.listdir("cnn")
 image_size = 50
-dense_size  = len(folder)
+dense_size = len(folder)
 
 X = []
 Y = []
@@ -37,7 +37,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.10)
 
 # モデル作成
 model = Sequential()
-model.add(Conv2D(32, (3, 3), padding='same',input_shape=X_train.shape[1:]))
+model.add(Conv2D(32, (3, 3), padding='same', input_shape=X_train.shape[1:]))
 model.add(Activation('relu'))
 model.add(Conv2D(32, (3, 3)))
 model.add(Activation('relu'))
@@ -61,7 +61,7 @@ model.add(Activation('softmax'))
 model.summary()
 
 # コンパイル
-optimizers ="Adadelta"
+optimizers = "Adadelta"
 results = {}
 
 epochs = 100
@@ -91,3 +91,11 @@ plt.plot(epochs, val_loss, 'b', label='Validation loss')
 plt.title('Training and validation loss')
 plt.legend()
 plt.savefig('損失値を示すグラフのファイル名')
+
+# モデルの保存
+json_string = model.model.to_json()
+open('CatOrLion.json', 'w').write(json_string)
+
+# 重みの保存
+hdf5_file = "CatOrLion.hdf5"
+model.model.save_weights(hdf5_file)

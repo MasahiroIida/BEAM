@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "87693a6af73a640e0aa644e6185c0c2fd74d17773478a05f0abae33afcfa6126"
+            "sha256": "c5e28e49dfb7c03d0d4fbef1fafe4d27f532b6d3aa5d0997cd8a37e3724c5d61"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -433,6 +433,28 @@
                 "sha256:565a021fd19419476b9362b05eeaa094178de64f8361e44468f9e9d7843901e1"
             ],
             "version": "==1.11.2"
+        },
+        "wxpython": {
+            "hashes": [
+                "sha256:0ec54278d77c2a39e0317316a9750833abd9967cc4a697d22bba3103babd0669",
+                "sha256:1399b68eb7e0cdeaf50fd498beb13b2c7a6ac9d685a8bc48d7e000f3b3e524c2",
+                "sha256:221ddb259f6c5546159cd4471adf4084179db9d255fbf3932397201f4810c6bc",
+                "sha256:25f6ce0d736938b56a5dee5ca451ec696e8e1e6f971558d5ac2d13f3c04a4bfd",
+                "sha256:2c47c641dc97d2b9fb52730aae438da32cf6fb1fbd86890fe840f8a1b815fd01",
+                "sha256:35cc8ae9dd5246e2c9861bb796026bbcb9fb083e4d49650f776622171ecdab37",
+                "sha256:4b99d18b24b1d603f002b3b894c65e7ef3253064e1ab15447aa5d94db1376692",
+                "sha256:537e0487f5e9318c11ae88f7f5a6f2760fae741c2b90a16559fb77fc281d8445",
+                "sha256:55ef084a0f295ed7ffd699cb57cdee43b22e9488929c7025370b8e26ee8e1642",
+                "sha256:7bbc8b32690c1e2dc73cd739c84a00289e4cd7bf0b342ae4a4b75b5d7c43a9d7",
+                "sha256:934868b08cc75bb152120ab80c75c45e2367f5135891a513743a11dfde9acbed",
+                "sha256:9a93d5f644262a13223eeac86593121c768677c9ad0bfa12265c5237bf4d3fa5",
+                "sha256:c199cc6974a26d3d318965852b6b713313af09ce51252c8d60fb23dcd6cd2c4b",
+                "sha256:cb3d98fa5fea20a1fe39fce91d4be9a50cf90c00c35fcc9c66513d3fe727fdf9",
+                "sha256:d0ffbff3b00d49eb43e144190ba279e6524a3ee5106feadec53efa66c6fb02c5",
+                "sha256:f45faaf2456d1d3f32a0b9ec72ee8b36a47b64f4888961e4d4440066d7b2c75f"
+            ],
+            "index": "pypi",
+            "version": "==4.0.6"
         }
     },
     "develop": {}

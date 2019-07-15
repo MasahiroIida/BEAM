@@ -11,10 +11,12 @@ tensorflow = "*"
 keras = "*"
 sklearn = "*"
 matplotlib = "*"
+wxpython = "*"
 
 [requires]
 python_version = "3.6"
 
 [scripts]
 sample = 'python ./src/sample/sample.py'
-demo = 'python ./src/sample/demo.py'
+demo_learn = 'python ./src/sample/demo_learn.py'
+demo_app = 'python ./src/sample/demo_app.py'
