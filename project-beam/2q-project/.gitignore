@@ -1,2 +1,4 @@
 .idea/
 .venv/
+.json
+.hdf5
